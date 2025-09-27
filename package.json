@@ -1,0 +1,28 @@
+{
+  "name": "ratelimiting",
+  "version": "1.0.0",
+  "description": "ratelimiting stategies",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henry78u/ratelimiting.git"
+  },
+  "keywords": [
+    "ratelimiting"
+  ],
+  "author": "Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henry78u/ratelimiting/issues"
+  },
+  "homepage": "https://github.com/henry78u/ratelimiting#readme",
+  "dependencies": {
+    "@upstash/ratelimit": "^2.0.6",
+    "@upstash/redis": "^1.35.4",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}
