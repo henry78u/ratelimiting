@@ -74,10 +74,10 @@ Example:
 
 ratelimiting/
 │── index.js       # Entry point
-│── limiter.js     # Rate limiting middleware
+│── Ratelimiter.js     # Rate limiting middleware
 │── package.json   # Project dependencies
 │── README.md      # Documentation
-
+|—— upstash.config.js # upstash configuration. 
 🚀 Future Improvements
 
 Redis-based store for distributed systems
